@@ -1,7 +1,10 @@
 <?php
 $date =  date('Y-m-d', time());
 echo "The value of \$date: ".$date."<br>";
-$date =  str_replace("-","/",$date);
+echo "<br><br>";
+//Remove dash
+$date = str_replace('-', '/', $date);
+echo $date;
 
 $tar = "2017/05/24";
 echo "The value of \$tar: ".$tar."<br>";
