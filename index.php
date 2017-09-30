@@ -1,7 +1,7 @@
 <?php
 $date =  date('Y-m-d', time());
 echo "The value of \$date: ".$date."<br>";
-echo str_replace("-","/",$date);
+$date =  str_replace("-","/",$date);
 
 $tar = "2017/05/24";
 echo "The value of \$tar: ".$tar."<br>";
