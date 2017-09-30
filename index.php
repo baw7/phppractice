@@ -7,14 +7,14 @@ $tar = "2017/05/24";
 echo "The value of \$tar: ".$tar."<br>";
 
 
-if ($date > "0") {
-    print  "the future";
+if ($tar  > "0") {
+    echo  "the future";
     }
-elseif ($date < "0") {
-    print "the past";
+elseif ($tar < "0") {
+    echo "the past";
     }
-else ($date == "0") {
-    print "Oops";
+else ($tar == "0") {
+    echo "Oops";
     }
 $year = array("2012", "396", "300","2000", "1100", "1089");
 echo "The value of \$year: ";
